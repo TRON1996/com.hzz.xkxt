@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>collegeMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.CollegeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>professionMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.ProfessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>classMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.ClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>studentMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>teacherMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>courseMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.CourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>classroomMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.classroomMgrServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonallyInfoServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.PersonallyInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>resetpwdMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.resetpwdMgrServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>teapersonMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.TeapersonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stupersonMgrServlet</servlet-name>
+    <servlet-class>stupersonMgrServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stuphotoServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.StuphotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeachTaskMgrServlet</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.TeachTaskMgrServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScheduleMgrServlet1</servlet-name>
+    <servlet-class>com.hzz.xkxt.servlet.ScheduleServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>collegeMgrServlet</servlet-name>
+    <url-pattern>/servlet/collegeMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>professionMgrServlet</servlet-name>
+    <url-pattern>/servlet/professionMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>classMgrServlet</servlet-name>
+    <url-pattern>/servlet/classMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>studentMgrServlet</servlet-name>
+    <url-pattern>/servlet/studentMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teacherMgrServlet</servlet-name>
+    <url-pattern>/servlet/teacherMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>courseMgrServlet</servlet-name>
+    <url-pattern>/servlet/courseMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>classroomMgrServlet</servlet-name>
+    <url-pattern>/servlet/classroomMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminMgrServlet</servlet-name>
+    <url-pattern>/servlet/AdminMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonallyInfoServlet</servlet-name>
+    <url-pattern>/servlet/PersonallyInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>resetpwdMgrServlet</servlet-name>
+    <url-pattern>/servlet/resetpwdMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teapersonMgrServlet</servlet-name>
+    <url-pattern>/servlet/teapersonMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stupersonMgrServlet</servlet-name>
+    <url-pattern>/servlet/stupersonMgrServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stuphotoServlet</servlet-name>
+    <url-pattern>/servlet/stuphotoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeachTaskMgrServlet</servlet-name>
+    <url-pattern>/servlet/TeachTaskMgrServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>ScheduleMgrServlet1</servlet-name>
+    <url-pattern>/servlet/ScheduleMgrServlet1</url-pattern>
+  </servlet-mapping>
+</web-app>
